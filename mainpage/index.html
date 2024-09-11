@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FullPage</title>
+        <!-- jQuery 먼저 로드 -->
+        <script
+            src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"
+        ></script>
+        <!-- fullPage.js CDN -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    </head>
+
+    <body>
+        <main id="fullpage">
+            <section class="section">
+                <h2>section 1</h2>
+                <p>박건형 존잘</p>
+            </section>
+
+            <section class="section">
+                <h2>section 2</h2>
+                <p>박건형 개존잘</p>
+            </section>
+
+            <section class="section">
+                <h2>section 3</h2>
+                <p>박건형 씹존잘</p>
+            </section>
+
+            <section class="section">
+                <h2>section 4</h2>
+                <p>박건형 존잘</p>
+            </section>
+
+            <section class="section">
+                <h2>section 5</h2>
+                <p>박건형 존잘</p>
+            </section>
+
+            <section class="section">
+                <h2>section 6</h2>
+                <p>박건형 존잘</p>
+            </section>
+
+            <footer class="section">
+                <h2>footer</h2>
+            </footer>
+        </main>
+
+        <script>
+            $(document).ready(function () {
+                new fullpage("#fullpage", {
+                    autoScrolling: true,
+                    navigation: true,
+                });
+            });
+        </script>
+    </body>
+</html>
